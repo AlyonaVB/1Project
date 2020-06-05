@@ -1,0 +1,213 @@
+.container {
+    max-width: 1100px;
+    min-width: 400px;
+    margin: 0 auto;
+    min-height: 100%
+   }
+
+html, 
+body {
+    height: 100%
+}
+
+.logo {
+    margin-top: 25px;
+    margin-left: 30px;
+    float: left;
+}
+.header {
+    height: 150px;
+    background: url(images/fon_body.jpg) no-repeat;
+    background-size: 100%;
+}
+#heading {
+    font-family: cursive;
+    color: #00a86B;
+    text-align: left;
+}
+.heading {
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+}
+.menu {
+    font-size: 120%;
+    font-family:cursive;
+    list-style-type: none;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 180px;
+}
+.menu li {
+    display: inline-block;
+    margin: 5px 10px;
+    border: 2px solid #7d017e;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+.menu li a:hover {
+    color: #7d017e;
+    }
+.link {
+    color: #00a86B;
+    text-decoration: none;
+}
+.greeting {
+    font-family: Bookman sans-serif;
+    font-size: 20px;
+    font-weight:500;
+}
+.greeting_table {
+   list-style-image: url(images/znak.png);
+   padding-left: 23px;
+   margin-top: -12px;
+    
+}
+.catalog {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.value {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.max_value {
+    border: 1px solid #00a86B;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+}
+.max_value td {
+    border: 1px solid #00a86B;
+    border-collapse: collapse;
+}
+thead {
+    font-family:serif;
+    background-color:beige;
+    color: #00a86B;
+    line-height: 30px;
+}
+.catalog_name {
+    margin-top: -5px;
+}
+.desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;    
+}
+.desc:first-letter {
+    color: #00a86B;
+    font-size: 25px;
+    font-family: cursive;
+}
+.food {
+    color: #00a86B;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    font-style: oblique;
+    list-style-image: url(images/znak.png);
+    }
+.outline {
+    outline: 3px solid #00a86B;
+}
+.outline:hover {
+    outline: transparent;
+}
+input {
+    width: 300px;
+    height: 20px;
+    margin: 3px 3px;
+    text-transform: capitalize;
+}
+.pol {
+    width: 50px;
+    height: 15px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+    text-transform: capitalize;
+}
+.button {
+    width: 160px;
+    height: 40px;
+    color: #00a86B;
+    font-weight: 400;
+}
+input::placeholder {
+    color: #00a86B;
+    font-style: italic;
+    }
+input[type="email"]:focus {
+    background-color: #b0ff75;
+}
+input[type="email"] {
+    color: #7d017e;
+    }
+body {
+background-color: #f8f8f8;    
+}
+.image_cookie {
+    clear: both;
+}
+.cookie {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+.goods {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.img_food {
+    outline-style:solid;
+    outline-color: #e679c4;
+    margin-bottom:8px;
+}
+.img_food:hover {
+    transform: scale(1.1);
+}
+.button_buy {
+    width: 90px;
+    height: 50px;
+    color: #00a86B;
+    font: 20px cursive;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    transition: All 0.5s ease;
+    border-color: aliceblue;
+}
+.button_buy:hover {
+    background-color:bisque;
+    transform: rotate(360deg);
+}
+.button_buy:active {
+    text-decoration: underline;
+}
+fieldset {
+    width: 300px;
+    border-radius: 10px;   
+}
+.crl {
+    height: 100px; /*задаем высоту блоку-близнецу футера*/
+}
+
+.footer {
+    background: url(images/fon.jpg) no-repeat;
+    background-size: 100%;
+    text-align: right;
+    height: 100px;
+    width: 1100px;
+    margin: -100px auto 0; /*центрирование блока 0-снизу, -100-сверху*/
+}
+
+
